@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Download and install V2Ray
+# Download and install XRay
 mkdir /tmp/xray
 curl -L -H "Cache-Control: no-cache" -o /tmp/xray/xray.zip https://github.com/XTLS/Xray-core/releases/download/v1.4.2/Xray-linux-64.zip
 unzip /tmp/xray/xray.zip -d /tmp/xray

@@ -20,14 +20,13 @@ cat << EOF > /usr/local/etc/xray/config.json
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID",
-                        "alterId": 64
+                        "id": "$UUID"
                     }
-                ],
-                "disableInsecureEncryption": true
+                ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "ws", 
+                "security": "none"
             }
         }
     ],
